@@ -18,7 +18,7 @@ public class Temperature {
         int count = 0;
         double min = 0;
         double max = 0;
-        int bigTemperatura = 0; // Promijenjeno u int jer broji koliko je mjerenja
+        int bigTemperatura = 0; 
         double total = 0;
 
         while (true) {
@@ -30,7 +30,6 @@ public class Temperature {
                 total += amount;
                 count++;
                 
-                // Provjera je li temperatura veća od 37.0
                 if (amount > 37.0) {
                     bigTemperatura++;
                 }
@@ -66,12 +65,12 @@ public class Temperature {
             if (bigTemperatura > 0) {
                 System.out.println("Povišena temperatura zabilježena.");
             } else {
+
                 System.out.println("Sva mjerenja u granicama normale.");
             }
         }
 
-        input.nextLine(); // Čišćenje buffera
-
+        input.nextLine(); 
         System.out.print("Želite li savjete za snižavanje temperature? (da/ne): ");
         String answer = input.nextLine();
 
