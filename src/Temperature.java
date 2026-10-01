@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class temperature  {
+public class Temperature  {
 
     public static void main(String[] args) {
         System.out.println("Dnevna tjelesna temperatura u Celzijima: ");
