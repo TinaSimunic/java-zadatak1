@@ -61,7 +61,6 @@ public class Temperature {
             
             System.out.println("Većih od 37.0 Celzijusa je " + bigTemperatura + " mjerenja.");
 
-            // Zaključna poruka prema zahtjevu zadatka
             if (bigTemperatura > 0) {
                 System.out.println("Povišena temperatura zabilježena.");
             } else {
